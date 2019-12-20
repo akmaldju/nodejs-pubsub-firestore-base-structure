@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-docs-samples-pubsub",
+  "files": [
+    "*.js"
+  ],
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Google Inc.",
+  "repository": "googleapis/nodejs-pubsub",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "mocha system-test --timeout 600000"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^1.2.0",
+    "firebase-admin": "^8.9.0",
+    "yargs": "^15.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "uuid": "^3.1.0"
+  }
+}
